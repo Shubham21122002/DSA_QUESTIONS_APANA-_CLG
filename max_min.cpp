@@ -45,13 +45,14 @@ int main() {
 /*
 int maxSubArray(vector<int>& arr) {
         int size = arr.size();
-             int maxSum = INT_MIN, currentSum = 0;
+        int maxSum = INT_MIN, currentSum = 0;
 
     for (int num : arr) {
         currentSum += num;
         maxSum = max(maxSum, currentSum);
 
-        if (currentSum < 0) currentSum = 0;
+        if (currentSum < 0) 
+           currentSum = 0;
     }
 
     return maxSum;
